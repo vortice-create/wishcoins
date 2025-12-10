@@ -1,0 +1,7 @@
+{
+  "name": "Wish Coins - Magic Map",
+  "description": "A modern spiritual map interface for logging Wish Coin discoveries using Google Maps and simulated Firebase persistence.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
