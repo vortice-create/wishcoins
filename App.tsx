@@ -30,7 +30,7 @@ const App: React.FC = () => {
       }
 
       // Use the provided Google Maps API Key
-      const apiKey = "AIzaSyC7vJSqW-HsAhTjIr3tGwRAyFvry9c153A";
+      const apiKey = "AIzaSyCxVeDaWOdNtbJQOrvGKJCXvRVCwI2z7sg";
       
       if (!apiKey) {
         setMapError("API Key is missing. Cannot load map.");
@@ -98,7 +98,7 @@ const App: React.FC = () => {
       <div className="absolute top-0 left-0 right-0 z-10 p-6 flex justify-between items-start pointer-events-none">
         <div className="bg-white/90 backdrop-blur-md px-6 py-4 rounded-full shadow-lg pointer-events-auto border border-white/50">
           <h1 className="font-serif text-xl md:text-2xl text-stone-900 tracking-tight">
-            Spirit + Soul <span className="text-gold-500 italic">Magic Map</span>
+            Spirit + Soul <span className="text-gold-500 italic">Wish Coins Map</span>
           </h1>
         </div>
       </div>
